@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     #  local apps
     'blog',
+    # 3rd party apps
+    'graphene_django',
 ]
 
 MIDDLEWARE = [
@@ -125,3 +127,8 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+#  look for a graphql schema here
+GRAPHENE = {
+  "SCHEMA": "blog.schema.schema",
+}
