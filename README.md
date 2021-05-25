@@ -11,3 +11,6 @@ pip install -r requirements.txt
 python manage.py runserver
 
 ```
+
+Project guide: `https://realpython.com/python-django-blog/`
+GraphQL guide: `https://docs.graphene-python.org/projects/django/en/latest/installation/`
